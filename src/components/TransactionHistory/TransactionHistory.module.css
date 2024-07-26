@@ -1,0 +1,36 @@
+
+.transTable {
+  vertical-align: middle;
+  text-align: center;
+  /* border-spacing: 0px; */
+  border-collapse: collapse;
+  width: 400px;
+}
+
+.tHead {
+  color: rgb(243, 236, 236);
+  background-color: rgb(48, 45, 45);
+}
+
+.title {
+  font-size: 15px;
+}
+
+.title th {
+  padding: 3px 5px;
+  font-weight: 600;
+}
+
+.transTable th,
+.transTable td {
+  border: 1px solid black;
+}
+
+.tBody td:first-child {
+  text-transform: capitalize;
+  text-align: left;
+  padding-left: 30px;
+}
+td {
+    width: calc(400px / 3);
+}

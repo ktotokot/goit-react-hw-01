@@ -1,0 +1,68 @@
+.card {
+  display: flex;
+  flex-direction: column;
+
+  width: 300px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 16px;
+  background-color: #faf8f8;
+  border: 3px solid black;
+  margin-bottom: 100px;
+}
+
+.cardImage {
+  object-fit: cover;
+  border-radius: 50%;
+  background-color: rgb(31, 30, 30);
+}
+
+.userInfo {
+  font-size: 18px;
+  color: gray;
+  padding: 15px;
+}
+
+.userName {
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+}
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+}
+
+.userStatsList {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(128, 128, 128, 0.364);
+}
+
+.userStatsList li {
+  padding: 5px 0;
+  border: 1px solid rgb(128, 128, 128);
+  width: 100%;
+  border-bottom: transparent;
+}
+
+.userStatsList li:first-child {
+  border-left: transparent;
+}
+
+.userStatsList li:last-child {
+  border-right: transparent;
+}
+.userStatsList li > span:last-child {
+  color: black;
+  font-weight: 500;
+}
+.userStatsList span {
+  text-align: center;
+  display: block;
+  font-size: 18px;
+}
